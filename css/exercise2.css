@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter;
+}
+
+h1 {
+  color: white;
+  background-color: blue;
+  width: 400px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 40px;
+  border-top-right-radius: 65px;
+  border-bottom-right-radius: 60px;
+  background: linear-gradient(
+    to right,
+    #2c24fb 1%,
+    #4fa2e6 100%,
+    /* #5963f8 100%, */
+    /* #207cca 100% */
+  );
+}
+
+main {
+    margin-left: 20px;
+}
+
+li {
+    padding-left: 20px;
+    margin-block: 25px;
+}
+
+li::marker {
+    color:#2c24fb;
+}
+
